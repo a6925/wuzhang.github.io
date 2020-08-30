@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 
 # Config for your profile.
 title:            That's 無            # Site title
-name:             wuzhang            #Your name
+name:             wuzhangyu            #Your name
 avatar:           /theme/img/avatar.jpg   # Path to an avatar image
 
 # The theme uses the baseurl throughout, which is useful for running the entire
@@ -54,20 +54,3 @@ defaults:
   -
     scope:
       path: "_portfolio"
-    values:
-      show_profile: false
-      layout: defaults/portfolio
-  -
-    scope:
-      path: "_projects"
-    values:
-      show_profile: false
-      layout: defaults/project
-  -
-    scope:
-      path: "list"
-    values:
-      show_profile: false
-      layout: defaults/list
-
-
